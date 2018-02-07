@@ -7,7 +7,7 @@
     text-align:center;
 }
   nav a:hover {
-    padding:15PX;
+    padding:15px;
     padding-bottom: 4px;
     font-size: 1.8em;
     text-decoration: none;
@@ -24,10 +24,6 @@ nav a:link {
 nav a:visited {
     color: green;
 }
-
-
-
-
 
 #me, #welcomeText {
     float:left;

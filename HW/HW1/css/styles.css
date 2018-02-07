@@ -1,0 +1,49 @@
+body{
+     background-color:royalblue;
+     color:gold;
+     background: linear-gradient(royalblue, gray);
+}
+
+#graphicsBody{
+    background: linear-gradient(to right, royalBlue , gray);
+}
+#moboBody{
+    background: linear-gradient(royalblue, lightBlue);
+}
+
+header, main, nav, footer, h1{
+    text-align:center;
+}
+footer{
+   font-size: smaller;
+    opacity: 0.5;
+}
+nav{
+    color:gold;
+}
+figure{
+        border: 1px solid powderblue;
+}
+title{
+    color:gold;
+}
+
+nav a:hover{
+    padding:15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover, nav a:active{
+    border-bottom:2px gold solid;
+    font-size: 2em;
+    transition: .5s;
+}
+
+b{
+    font-size: large
+}
+
+
