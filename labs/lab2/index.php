@@ -7,7 +7,7 @@
     <body>
 
     <?php
-    for($i=1;$i<4;$i++)
+    for($i=1;$i<5;$i++)
     {
         ${"randomValue" . $i } = rand(0,2);
         displaySymbol(${"randomValue" . $i} );
