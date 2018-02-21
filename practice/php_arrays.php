@@ -5,7 +5,7 @@
 
  //echo $cards[0];
  
- $cards[] = "jack"; //adding a new elemnt at the end of the array
+ $cards[] = "jack"; //adding a new element at the end of the array
  array_push($cards, "queen");//adds queen to the end of the array.
  array_push($cards, "king", "ACE");
  print_r($cards); //prints the entire array.

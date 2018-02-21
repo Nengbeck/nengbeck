@@ -1,0 +1,33 @@
+ body {
+     background-color:black;
+     color:gray;
+}
+header, main, nav, footer,div{
+    padding-top: 25px;
+    text-align:center;
+    color:darkgreen;
+}
+nav a:hover {
+    padding:15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: green;
+}
+   nav a:hover, nav a:active {
+    border-bottom:2px orange solid;
+    font-size: 2em;
+    transition: .9s;
+}
+nav a:link {
+    color: green;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+     color:gold;
+    font-size: 10px;
+}
