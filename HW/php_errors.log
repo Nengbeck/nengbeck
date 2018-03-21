@@ -2,3 +2,6 @@
 [21-Feb-2018 05:31:38 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/nengbeck/HW/HW2/main.php on line 29
 [21-Feb-2018 08:18:59 UTC] PHP Parse error:  syntax error, unexpected '++' (T_INC) in /home/ubuntu/workspace/nengbeck/HW/HW2/main.php on line 32
 [21-Feb-2018 08:19:22 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/nengbeck/HW/HW2/main.php on line 32
+[21-Mar-2018 19:27:27 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/nengbeck/HW/HW3/index.php on line 3
+[21-Mar-2018 20:45:21 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/nengbeck/HW/HW3/index.php on line 13
+[21-Mar-2018 20:57:40 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/nengbeck/HW/HW3/index.php on line 69

@@ -1,0 +1,63 @@
+[12-Mar-2018 21:28:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'otermart'' in /home/ubuntu/workspace/nengbeck/reports/reports.php:67
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/reports/reports.php(67): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/reports/reports.php on line 67
+[12-Mar-2018 21:33:33 UTC] PHP Fatal error:  Call to undefined method PDO::setAtttribute() in /home/ubuntu/workspace/nengbeck/reports/reports.php on line 68
+[12-Mar-2018 21:33:33 UTC] PHP Stack trace:
+[12-Mar-2018 21:33:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/reports/reports.php:0
+[12-Mar-2018 21:34:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_purchase' doesn't exist' in /home/ubuntu/workspace/nengbeck/reports/reports.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/reports/reports.php(71): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/reports/reports.php on line 71
+[12-Mar-2018 21:34:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_purchase' doesn't exist' in /home/ubuntu/workspace/nengbeck/reports/reports.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/reports/reports.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/reports/reports.php on line 40
+[12-Mar-2018 21:35:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_purchase' doesn't exist' in /home/ubuntu/workspace/nengbeck/reports/reports.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/reports/reports.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/reports/reports.php on line 40
+[12-Mar-2018 21:36:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_purchase' doesn't exist' in /home/ubuntu/workspace/nengbeck/reports/reports.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/reports/reports.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/reports/reports.php on line 40
+[12-Mar-2018 21:37:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_purchase' doesn't exist' in /home/ubuntu/workspace/nengbeck/reports/reports.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/reports/reports.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/reports/reports.php on line 40
+[12-Mar-2018 21:37:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_purchase' doesn't exist' in /home/ubuntu/workspace/nengbeck/reports/reports.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/reports/reports.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/reports/reports.php on line 39
+[12-Mar-2018 21:39:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_purchase' doesn't exist' in /home/ubuntu/workspace/nengbeck/reports/reports.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/reports/reports.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/reports/reports.php on line 39
+[12-Mar-2018 21:40:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_user' doesn't exist' in /home/ubuntu/workspace/nengbeck/reports/reports.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/reports/reports.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/reports/reports.php on line 39
+[12-Mar-2018 21:40:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_product' doesn't exist' in /home/ubuntu/workspace/nengbeck/reports/reports.php:48
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/reports/reports.php(48): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/reports/reports.php on line 48
+[12-Mar-2018 21:43:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.user' doesn't exist' in /home/ubuntu/workspace/nengbeck/reports/reports.php:63
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/reports/reports.php(63): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/reports/reports.php on line 63
+[12-Mar-2018 21:44:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.user' doesn't exist' in /home/ubuntu/workspace/nengbeck/reports/reports.php:63
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/reports/reports.php(63): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/reports/reports.php on line 63

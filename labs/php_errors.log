@@ -124,3 +124,6 @@
 [03-Mar-2018 05:33:27 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/nengbeck/labs/lab4/index.php on line 12
 [03-Mar-2018 05:33:27 UTC] PHP Stack trace:
 [03-Mar-2018 05:33:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab4/index.php:0
+[12-Mar-2018 22:11:49 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/nengbeck/labs/lab6/index.php on line 22
+[12-Mar-2018 22:11:49 UTC] PHP Stack trace:
+[12-Mar-2018 22:11:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab6/index.php:0

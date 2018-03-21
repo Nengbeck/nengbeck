@@ -1,0 +1,21 @@
+ body {
+     background-color:black;
+     color:limegreen;
+     background: linear-gradient(royalblue, gray);
+     text-align:center;
+}
+head,main, nav, footer, h2{
+    text-align:center;
+}
+footer{
+    color:gold;
+    font-size: 10px;
+    font-size: smaller;
+    opacity: 0.5;
+}
+title{
+    color:gold;
+}
+div{
+    color:purple;
+}
