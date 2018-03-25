@@ -67,7 +67,7 @@
             if (!isset($_GET['keyword'])) {
         
               echo "<h2> You must type a keyword or select a category </h2>";
-            
+           
             }  
         ?>
 
