@@ -130,8 +130,8 @@
 <html>
     <head>
         <meta charset = "utf-8" />
-        <link href="css/styles.css" rel="stylesheet" type="text/css" />
         <title> OtterMart Product Search </title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
 
