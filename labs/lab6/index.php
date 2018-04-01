@@ -2,6 +2,7 @@
 <?php
 
     include '../../dbConnection.php';
+   
     
     $conn = getDatabaseConnection("ottermart");
 
@@ -14,8 +15,6 @@
         $stmt->execute();
         $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
         
-        //print_r($records);
-        
         foreach ($records as $record) {
             
             echo "<option value='".$record["catId"]."' >" . $record["catName"] . "</option>";
@@ -23,6 +22,47 @@
         }
         
     }
+    function orderResultByPrice() //not used, just trying things.
+    {
+        global $conn;
+        
+        $sql = "SELECT catId, price, productName 
+                FROM `om_product` 
+                ORDER BY price ASC";
+
+        $stmt = $conn->prepare($sql);
+        $stmt->execute();
+        $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        
+        foreach ($records as $record) {
+            
+            echo "<option value='".$record["productName"]."' >" . $record["price"] . "</option>";
+            
+        }
+               
+    }
+    
+    function orderResultByName() //not used, just trying things.
+    {
+         global $conn;
+        
+        $sql = "SELECT catId, price, productName 
+                FROM `om_product` 
+                ORDER BY productName ASC";
+
+        $stmt = $conn->prepare($sql);
+        $stmt->execute();
+        $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        
+        foreach ($records as $record) {
+            
+            echo "<option value='".$record["productName"]."' >" . $record["price"] . "</option>";
+            
+        }
+         
+    }
+    
+    
     
     function displaySearchResults(){
         global $conn;
@@ -30,12 +70,6 @@
         if (isset($_GET['searchForm'])) { //checks whether user has submitted the form
             
             echo "<h3>Products Found: </h3>"; 
-            
-            //following sql works but it DOES NOT prevent SQL Injection
-            //$sql = "SELECT * FROM om_product WHERE 1
-            //       AND productName LIKE '%".$_GET['product']."%'";
-            
-            //Query below prevents SQL Injection
             
             $namedParameters = array();
             
@@ -52,7 +86,29 @@
                  $namedParameters[":categoryId"] =  $_GET['category'];
             }        
             
-            //echo $sql; //for debugging purposes
+             if (!empty($_GET['priceFrom'])) { //checks whether user has typed something in the "Product" text box
+                 $sql .=  " AND price >= :priceFrom";
+                 $namedParameters[":priceFrom"] =  $_GET['priceFrom'];
+            }        
+            
+             if (!empty($_GET['priceTo'])) { //checks whether user has typed something in the "Product" text box
+                 $sql .=  " AND price <= :priceTo";
+                 $namedParameters[":priceTo"] =  $_GET['priceTo'];
+            }
+            
+            if (isset($_GET['orderBy'])) { //checks whether user has typed something in the "Product" text box
+                 
+                 if ($_GET['orderBy'] == "price")
+                 {
+                     $sql .= " ORDER BY price";
+                 }
+                 else {
+                     {
+                     $sql .= " ORDER BY productName";     
+                     }
+                 }
+            }
+            
             
              $stmt = $conn->prepare($sql);
              $stmt->execute($namedParameters);
@@ -60,7 +116,7 @@
         
             foreach ($records as $record) {
             
-                 echo  $record["productName"] . " " . $record["productDescription"] . "<br />";
+                 echo  $record["productName"] . " " . $record["productDescription"] . " $" . $record["price"] . "<br><br />";
             
             }
         }
@@ -73,6 +129,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset = "utf-8" />
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
         <title> OtterMart Product Search </title>
     </head>
     <body>

@@ -127,3 +127,27 @@
 [12-Mar-2018 22:11:49 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/nengbeck/labs/lab6/index.php on line 22
 [12-Mar-2018 22:11:49 UTC] PHP Stack trace:
 [12-Mar-2018 22:11:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab6/index.php:0
+[01-Apr-2018 05:15:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/nengbeck/labs/lab6/index.php:118
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab6/index.php(118): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/nengbeck/labs/lab6/index.php(171): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab6/index.php on line 118
+[01-Apr-2018 06:38:33 UTC] PHP Warning:  include(/nengbeck/labs/lab6/css/styles.css): failed to open stream: No such file or directory in /home/ubuntu/workspace/nengbeck/labs/lab6/index.php on line 5
+[01-Apr-2018 06:38:33 UTC] PHP Stack trace:
+[01-Apr-2018 06:38:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab6/index.php:0
+[01-Apr-2018 06:38:33 UTC] PHP Warning:  include(): Failed opening '/nengbeck/labs/lab6/css/styles.css' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/nengbeck/labs/lab6/index.php on line 5
+[01-Apr-2018 06:38:33 UTC] PHP Stack trace:
+[01-Apr-2018 06:38:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab6/index.php:0
+[01-Apr-2018 06:38:55 UTC] PHP Warning:  include(styles.css): failed to open stream: No such file or directory in /home/ubuntu/workspace/nengbeck/labs/lab6/index.php on line 5
+[01-Apr-2018 06:38:55 UTC] PHP Stack trace:
+[01-Apr-2018 06:38:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab6/index.php:0
+[01-Apr-2018 06:38:55 UTC] PHP Warning:  include(): Failed opening 'styles.css' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/nengbeck/labs/lab6/index.php on line 5
+[01-Apr-2018 06:38:55 UTC] PHP Stack trace:
+[01-Apr-2018 06:38:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab6/index.php:0
+[01-Apr-2018 06:39:01 UTC] PHP Warning:  include(../styles.css): failed to open stream: No such file or directory in /home/ubuntu/workspace/nengbeck/labs/lab6/index.php on line 5
+[01-Apr-2018 06:39:01 UTC] PHP Stack trace:
+[01-Apr-2018 06:39:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab6/index.php:0
+[01-Apr-2018 06:39:01 UTC] PHP Warning:  include(): Failed opening '../styles.css' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/nengbeck/labs/lab6/index.php on line 5
+[01-Apr-2018 06:39:01 UTC] PHP Stack trace:
+[01-Apr-2018 06:39:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab6/index.php:0

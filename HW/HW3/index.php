@@ -30,7 +30,7 @@ function test_input($data) {
 
 <h2>The Legend of CSUMB's Powerful Wizard</h2>
 <body>
-    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">   
       Gender:
       <input type="radio" name="gender" <?php if (isset($_POST['gender']) && $_POST['gender']=="womanly") echo "checked = checked";?>value="womanly">Womanly
       <input type="radio" name="gender" <?php if (isset($_POST['gender']) && $_POST['gender']=="manly") echo "checked = checked";?>value="manly">Manly

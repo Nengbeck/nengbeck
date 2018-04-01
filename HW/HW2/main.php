@@ -1,147 +1,112 @@
 <?php
 
- //print_r($_GET); //displaying all content submitted in the form using the GET method
-
-  $backgroundImage = "img/sea.jpg";
-    
-  if (isset($_GET['keyword'])) { //if form was submitted
-      
-      include 'api/pixabayAPI.php';
-      
-      echo "<h3>You searched for " . $_GET['keyword'] . "</h3>";
-      
-      $orientation = "horizontal";
-      $keyword = $_GET['keyword'];
-      
-      if (isset($_GET['layout'])) {  //user checked a layout
-        
-        $orientation = $_GET['layout'];
-        
-      }
-      
-      if (!empty($_GET['category'])) { //user selected a category
-        $keyword = $_GET['category'];
-      }
-      
-      $imageURLs = getImageURLs($keyword, $orientation);
-      
-      //$backgroundImage = $imageURLs[rand(0, count($imageURLs)-1];
-      $backgroundImage = $imageURLs[array_rand($imageURLs)];
-      
-      //print_r($imageURLs);
-      
-      
-  }      
- 
- function checkCategory($category){
-   
-    if ($category == $_GET['category']) {
-       echo " selected";
+function randColor()
+{
+    $backgroundColor;
+    $colorNum = rand(1,4);
+    switch($colorNum)
+    {
+        case 1: $backgroundColor = 1;
+                break;
+        case 2: $backgroundColor = 2;
+                break;
+        case 3: $backgroundColor = 3;
+                break;
+        case 4: $backgroundColor = 4;
+                break;
     }
- }
+
+}
+
+function displayArray()
+{
+    $counter = 0;
+    $arrayNum = rand(3,10);
+    $array = array();
+    echo "Here's a Random Array!<br>";
+    while($counter == 0){
+        for($i = 0; $i < $arrayNum; $i++)
+        {
+          $array[$i] = Rand(1,99);
+          print_r($array[$i]);
+        }
+       echo "<br>";
+    $counter = 1;
+    }
+    echo "<br>";
+    while($counter == 1){
+        echo "Now it's Shuffled!<br>";
+        shuffle($array);
+        for($i = 0; $i < $arrayNum; $i++)
+        {
+          
+          print_r($array[$i]);
+        }
+        echo "<br>";
+        $counter = 2;
+    }
+    echo "<br>";
+    while($counter == 2){
+        echo " Now it's been Popped!!<br>";
+        array_pop($array);
+        $counter = 3;
+    }
+    for($i = 0; $i < $arrayNum; $i++)
+    {
+        print_r($array[$i]);
+    }
+    echo "<br>";
+    echo "<br>";
+    
+    while($counter == 3){
+        echo " Now Let's PUSH!!<br>";
+        array_push($array," ''Niccolo'' " . "1125");
+         for($i = 0; $i < $arrayNum; $i++)
+        {
+        print_r($array[$i]);
+        }
+        echo "<br>";
+        echo "<br>";
+        echo "That's an interesting new element in there... ;)<br>";
+        $counter = 4;
+    }
+    echo "<br>";
+    
+   
+}
 
 ?>
 
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Lab 4: Pixabay Carousel </title>
+        <meta charset = "utf-8" />
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <title>HW2</title>
+        
     </head>
-    <style>
-        @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
-        @import url("css/styles.css");
-        body {
-            background-image: url(<?=$backgroundImage?>);
-        }
-        
-        #carouselExampleIndicators {
-            width: 500px;
-            margin: 0 auto; /*centers a div container*/
-        }
-         
-    </style>
+    
     <body>
-
-        <?php
-        
-            if (!isset($_GET['keyword'])) {
-        
-              echo "<h2> You must type a keyword or select a category </h2>";
-           
-            }  
-        ?>
-
-        
-
-        <form method="GET">
-            
-            <input type="text" size="20" name="keyword" placeholder="Keyword to search for" value="<?=$_GET['keyword']?>"/>
-            
-            <input type="radio" name="layout" value="horizontal" id="hlayout" 
-            
-            <?php
-               if ($_GET['layout'] == "horizontal") {
-                 echo "checked";
-               }
-            ?>
-            
-            >
-            <label for="hlayout"> Horizontal </label>
-            
-            <input type="radio" name="layout" value="vertical" id="vlayout" <?= ($_GET['layout']=="vertical")?"checked":"" ?>>
-            <label for="vlayout"> Vertical </label>
-            
-            <select name="category">
-              <option value="" >  Select One </option> 
-              <option value="sea" <?=checkCategory('sea')?>>  Ocean </option>
-              <option <?=checkCategory('Forest')?>>  Forest </option>
-              <option <?=checkCategory('Sky')?>>  Sky </option>
-            </select>
-            
-            
-            <input type="submit" value="Submit!"/>
-                    
-        </form>
-        
-        <?php
-          
-           if (isset($_GET['keyword'])) {
-        ?>
-        
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img class="d-block w-100" src="<?=$imageURLs[0]?>" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="<?=$imageURLs[1]?>" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="<?=$imageURLs[2]?>" alt="Third slide">
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-        </div>
-        
-        <?php
-            }//endIf
-        ?>
-        
-        
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <nav>
+        <a href="https://www.lamborghini.com/en-en/brand/masterpieces/aventador-superveloce" alt="lamborghini Aventador SV webpage">The Baddest Bull</a>
+    </nav>
+    
+    <div>
+    <?php
+    displayArray();
+    ?>
+    </div>
+    
+    <img src="https://storage.googleapis.com/gtspirit/uploads/2015/11/Lamborghini-Murcielago-SV-2.jpg" alt="Lamborghini Murcielago LP-670-4 SV" width = 375px height = 275px class="center">
+    <br> </br>
+    <img src="https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/images/17q1/674165/2018-lamborghini-huracan-performante-is-a-car-worth-waiting-for-feature-car-and-driver-photo-677160-s-original.jpg" width = 400px height = 250px class="center">   
     </body>
+    <footer id="foot">
+        <hr>
+        CST336 Internet Programming. 2018&copy; Engbeck <br />
+                    <br />
+                    <br />
+                    <img src="img/csumb_logo.jpg" alt="CSUMB Logo" height = 125, width = 200/>
+            
+        </footer>
 </html>
