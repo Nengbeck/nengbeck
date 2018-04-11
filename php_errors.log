@@ -61,3 +61,38 @@ Stack trace:
 #0 /home/ubuntu/workspace/nengbeck/reports/reports.php(63): PDOStatement->execute()
 #1 {main}
   thrown in /home/ubuntu/workspace/nengbeck/reports/reports.php on line 63
+[11-Apr-2018 22:32:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'history'' in /home/ubuntu/workspace/nengbeck/challenges/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/challenges/dbConnection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/challenges/April_9_2018.php(6): getDatabaseConnection('history')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/challenges/dbConnection.php on line 9
+[11-Apr-2018 22:33:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/nengbeck/challenges/dbConnection.php on line 17
+[11-Apr-2018 22:33:02 UTC] PHP Stack trace:
+[11-Apr-2018 22:33:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/challenges/April_9_2018.php:0
+[11-Apr-2018 22:33:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/nengbeck/challenges/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/challenges/dbConnection.php(9): PDO->__construct('mysql:host=loca...')
+#1 /home/ubuntu/workspace/nengbeck/challenges/April_9_2018.php(6): getDatabaseConnection('history')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/challenges/dbConnection.php on line 9
+[11-Apr-2018 22:33:33 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/ubuntu/workspace/nengbeck/challenges/dbConnection.php on line 9
+[11-Apr-2018 22:33:33 UTC] PHP Stack trace:
+[11-Apr-2018 22:33:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/challenges/April_9_2018.php:0
+[11-Apr-2018 22:34:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'history'' in /home/ubuntu/workspace/nengbeck/challenges/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/challenges/dbConnection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/challenges/April_9_2018.php(6): getDatabaseConnection('history')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/challenges/dbConnection.php on line 9
+[11-Apr-2018 22:34:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'guessedHistory'' in /home/ubuntu/workspace/nengbeck/challenges/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/challenges/dbConnection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/challenges/April_9_2018.php(6): getDatabaseConnection('guessedHistory')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/challenges/dbConnection.php on line 9
+[11-Apr-2018 22:41:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'guesses History.om_product' doesn't exist' in /home/ubuntu/workspace/nengbeck/challenges/April_9_2018.php:80
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/challenges/April_9_2018.php(80): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/challenges/April_9_2018.php on line 80
