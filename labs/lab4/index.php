@@ -9,6 +9,7 @@
       $imageURLs = getImageURLs($_GET['keyword']);
       $backgroundImage = $imageURLs[array_rand($imageURLs)];
   }  
+  
 ?>
 
 

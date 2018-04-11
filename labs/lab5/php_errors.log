@@ -1,0 +1,3 @@
+[10-Apr-2018 03:14:23 UTC] PHP Fatal error:  Call to undefined function displayCartItems() in /home/ubuntu/workspace/nengbeck/labs/lab5/scart/index.php on line 66
+[10-Apr-2018 03:14:23 UTC] PHP Stack trace:
+[10-Apr-2018 03:14:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab5/scart/index.php:0

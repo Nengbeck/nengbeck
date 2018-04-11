@@ -151,3 +151,162 @@ Stack trace:
 [01-Apr-2018 06:39:01 UTC] PHP Warning:  include(): Failed opening '../styles.css' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/nengbeck/labs/lab6/index.php on line 5
 [01-Apr-2018 06:39:01 UTC] PHP Stack trace:
 [01-Apr-2018 06:39:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab6/index.php:0
+[02-Apr-2018 21:39:10 UTC] PHP Fatal error:  Call to undefined function displayAllProducts() in /home/ubuntu/workspace/nengbeck/labs/lab7/admin.php on line 24
+[02-Apr-2018 21:39:10 UTC] PHP Stack trace:
+[02-Apr-2018 21:39:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab7/admin.php:0
+[02-Apr-2018 21:51:34 UTC] PHP Warning:  include(../../dbCoonnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/nengbeck/labs/lab7/admin.php on line 5
+[02-Apr-2018 21:51:34 UTC] PHP Stack trace:
+[02-Apr-2018 21:51:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab7/admin.php:0
+[02-Apr-2018 21:51:34 UTC] PHP Warning:  include(): Failed opening '../../dbCoonnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/nengbeck/labs/lab7/admin.php on line 5
+[02-Apr-2018 21:51:34 UTC] PHP Stack trace:
+[02-Apr-2018 21:51:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab7/admin.php:0
+[02-Apr-2018 21:51:34 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/nengbeck/labs/lab7/admin.php on line 6
+[02-Apr-2018 21:51:34 UTC] PHP Stack trace:
+[02-Apr-2018 21:51:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab7/admin.php:0
+[02-Apr-2018 21:51:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/nengbeck/labs/lab7/admin.php on line 16
+[02-Apr-2018 21:51:42 UTC] PHP Stack trace:
+[02-Apr-2018 21:51:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab7/admin.php:0
+[02-Apr-2018 21:51:42 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/nengbeck/labs/lab7/admin.php:43
+[02-Apr-2018 22:24:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php on line 10
+[02-Apr-2018 22:24:37 UTC] PHP Stack trace:
+[02-Apr-2018 22:24:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php:0
+[02-Apr-2018 22:24:37 UTC] PHP   2. getCategories() /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php:36
+[02-Apr-2018 22:24:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php on line 10
+[02-Apr-2018 22:24:57 UTC] PHP Stack trace:
+[02-Apr-2018 22:24:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php:0
+[02-Apr-2018 22:24:57 UTC] PHP   2. getCategories() /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php:37
+[02-Apr-2018 22:25:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php on line 10
+[02-Apr-2018 22:25:37 UTC] PHP Stack trace:
+[02-Apr-2018 22:25:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php:0
+[02-Apr-2018 22:25:37 UTC] PHP   2. getCategories() /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php:37
+[02-Apr-2018 22:25:56 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php on line 10
+[02-Apr-2018 22:25:56 UTC] PHP Stack trace:
+[02-Apr-2018 22:25:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php:0
+[02-Apr-2018 22:25:56 UTC] PHP   2. getCategories() /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php:36
+[02-Apr-2018 22:43:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'productDescription' cannot be null' in /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php(37): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php on line 37
+[02-Apr-2018 22:43:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'productDescription' cannot be null' in /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php(37): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php on line 37
+[02-Apr-2018 22:44:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'productDescription' cannot be null' in /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php(37): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/addAProduct.php on line 37
+[02-Apr-2018 22:47:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_admin' doesn't exist' in /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(35): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php on line 35
+[02-Apr-2018 22:47:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_admin' doesn't exist' in /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(35): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php on line 35
+[04-Apr-2018 21:44:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php on line 8
+[04-Apr-2018 21:44:41 UTC] PHP Stack trace:
+[04-Apr-2018 21:44:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:0
+[04-Apr-2018 21:45:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php on line 9
+[04-Apr-2018 21:45:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php on line 11
+[04-Apr-2018 21:46:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php on line 11
+[04-Apr-2018 21:46:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php on line 11
+[04-Apr-2018 21:46:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php on line 9
+[04-Apr-2018 21:52:00 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php on line 12
+[04-Apr-2018 21:52:00 UTC] PHP Stack trace:
+[04-Apr-2018 21:52:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:0
+[04-Apr-2018 21:52:00 UTC] PHP   2. getProductInfo() /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:21
+[04-Apr-2018 21:52:15 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php on line 12
+[04-Apr-2018 21:52:15 UTC] PHP Stack trace:
+[04-Apr-2018 21:52:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:0
+[04-Apr-2018 21:52:15 UTC] PHP   2. getProductInfo() /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:21
+[04-Apr-2018 21:52:23 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php on line 12
+[04-Apr-2018 21:52:23 UTC] PHP Stack trace:
+[04-Apr-2018 21:52:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:0
+[04-Apr-2018 21:52:23 UTC] PHP   2. getProductInfo() /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:21
+[09-Apr-2018 21:29:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '>
+            Product name: <input type=' at line 1' in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(54): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php on line 29
+[09-Apr-2018 21:30:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '>
+            Product name: <input type=' at line 1' in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(54): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php on line 29
+[09-Apr-2018 21:34:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '>
+            Product name: <input type=' at line 1' in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(64): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php on line 29
+[09-Apr-2018 21:35:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '>
+            Product name: <input type=' at line 1' in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(64): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php on line 29
+[09-Apr-2018 21:35:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '>
+            Product name: <input type=' at line 1' in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(64): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php on line 29
+[11-Apr-2018 00:04:05 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/nengbeck/labs/lab6/index.php on line 4
+[11-Apr-2018 00:04:05 UTC] PHP Stack trace:
+[11-Apr-2018 00:04:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab6/index.php:0
+[11-Apr-2018 00:04:05 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/nengbeck/labs/lab6/index.php on line 4
+[11-Apr-2018 00:04:05 UTC] PHP Stack trace:
+[11-Apr-2018 00:04:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab6/index.php:0
+[11-Apr-2018 00:04:05 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/nengbeck/labs/lab6/index.php on line 6
+[11-Apr-2018 00:04:05 UTC] PHP Stack trace:
+[11-Apr-2018 00:04:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab6/index.php:0
+[11-Apr-2018 00:04:22 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/nengbeck/labs/lab6/index.php on line 4
+[11-Apr-2018 00:04:22 UTC] PHP Stack trace:
+[11-Apr-2018 00:04:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab6/index.php:0
+[11-Apr-2018 00:04:22 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/nengbeck/labs/lab6/index.php on line 4
+[11-Apr-2018 00:04:22 UTC] PHP Stack trace:
+[11-Apr-2018 00:04:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab6/index.php:0
+[11-Apr-2018 00:04:22 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/nengbeck/labs/lab6/index.php on line 6
+[11-Apr-2018 00:04:22 UTC] PHP Stack trace:
+[11-Apr-2018 00:04:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab6/index.php:0
+[11-Apr-2018 00:04:31 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/nengbeck/labs/lab6/purchaseHistory.php on line 3
+[11-Apr-2018 00:04:31 UTC] PHP Stack trace:
+[11-Apr-2018 00:04:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab6/purchaseHistory.php:0
+[11-Apr-2018 00:04:31 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/nengbeck/labs/lab6/purchaseHistory.php on line 3
+[11-Apr-2018 00:04:31 UTC] PHP Stack trace:
+[11-Apr-2018 00:04:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab6/purchaseHistory.php:0
+[11-Apr-2018 00:04:31 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/nengbeck/labs/lab6/purchaseHistory.php on line 5
+[11-Apr-2018 00:04:31 UTC] PHP Stack trace:
+[11-Apr-2018 00:04:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab6/purchaseHistory.php:0

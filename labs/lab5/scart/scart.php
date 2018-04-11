@@ -2,50 +2,27 @@
     session_start();
     include 'functions.php';
     
-    if(isset($_POST['removeId']))
-    {
-        foreach ($_SESSION['cart'] as $itemKey => $item)
-        {
-            if($item['id'] == $_POST['removeId'])
-            {
+    if(isset($_POST['removeId'])) {
+        
+        foreach($_SESSION['cart'] as $itemKey => $item) {
+            
+            if($item['id'] == $_POST['removeId']) {
+                
                 unset($_SESSION['cart'][$itemKey]);
             }
         }
     }
-    if(!isset($_SESSION['cart'])){
-        $_SESSION['cart'] = array();
-    }
     
-    if(isset($_GET['query']))
-    {
-        include 'wmapi.php';
-        $items = getProducts($_Get['query']);
-    }
-
-    if(isset($_POST['itemName']))
-    {
-        $newItem = array();
-        $newItem['name'] = $_POST['itemName'];
-        $newItem['price'] = $_POST['itemPrice'];
-        $newItem['img'] = $_POST['itemImg'];
-        $newItem['id'] = $_POST['itemId'];
+    if(isset($_POST['itemId'])) {
         
-        foreach ($_SESSION['cart'] as &$item)
-        {
-            if($newItem['id'] == $item['id'])
-            {
-                $item['quantity'] += 1;
-                $found = true;
+        foreach($_SESSION['cart'] as &$item) {
+            
+            if($item['id'] == $_POST['itemId']) {
+                
+                $item['quantity'] = $_POST['update'];
             }
         }
-        
-        if($found != true)
-        {
-            $newItem['quantity'] = 1;
-            array_push($_SESSION['cart'], $newItem);
-        }
     }
-
 ?>
 
 <!DOCTYPE html>
@@ -71,7 +48,9 @@
                         </div>
                         <ul class='nav navbar-nav'>
                             <li><a href='index.php'>Home</a></li>
-                            <li><a href='scart.php'>Cart</a></li>
+                            <li><a href='scart.php'>
+                            <span class='glyphicon glyphicon-shopping-cart' aria-hidden='true'>
+                            </span>Cart: <?php displayCartCount(); ?> </a></li>
                         </ul>
                     </div>
                 </nav>
@@ -79,10 +58,8 @@
                 <h2>Shopping Cart</h2>
                 <!-- Cart Items -->
                 <?php
-                if(isset($_SESSION['cart'])){
-                    echo $_SESSION['cart'];
-                }
-                
+                    
+                    displayCart();
                 ?>
             </div>
         </div>

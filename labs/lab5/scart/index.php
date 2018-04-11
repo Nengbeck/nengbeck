@@ -1,42 +1,45 @@
 <?php
-    include 'functions.php';
     
+    include 'functions.php';
     session_start();
     
-    if(!isset($_SESSION['cart']))
-    {
+    if(!isset($_SESSION['cart'])) {
+        
         $_SESSION['cart'] = array();
     }
     
-    if(isset($_GET['query']))
-    {
-        include 'wmapi.php';
-        $items = getProducts($_GET['query']);
-    }
-    
-    if(isset($_POST['itemName']))
-    {
+    if(isset($_POST['itemName'])) {
+        
         $newItem = array();
         $newItem['name'] = $_POST['itemName'];
-        $newItem['price'] = $_POST['itemPrice'];
-        $newItem['img'] = $_POST['itemImage'];
         $newItem['id'] = $_POST['itemId'];
+        $newItem['price'] = $_POST['itemPrice'];
+        $newItem['image'] = $_POST['itemImage'];
         
-        foreach ($_SESSION['cart'] as &$item)
-        {
-            if($newItem['id'] == $item['id'])
-            {
+        foreach($_SESSION['cart'] as &$item) {
+            
+            if($newItem['id'] == $item['id']) {
+                
                 $item['quantity'] += 1;
                 $found = true;
             }
         }
         
-        if($found != true)
-        {
+        if($found != true) {
+            
             $newItem['quantity'] = 1;
             array_push($_SESSION['cart'], $newItem);
         }
+        
     }
+    
+    if(isset($_GET['query'])) {
+        
+        include 'wmapi.php';
+        $items = getProducts($_GET['query']);
+        
+    }
+
 ?>
 
 <!DOCTYPE html>
@@ -62,9 +65,9 @@
                     </div>
                     <ul class='nav navbar-nav'>
                         <li><a href='index.php'>Home</a></li>
-                        <li><a href='scart.php'>Cart</a></li>
-                        <span class= 'glyphicon glyphicon-shopping-cart' aria-hidden='true'>
-                        </span>Cart: <?php displayCartCount(); ?> </a></li>
+                        <li><a href='scart.php'>
+                            <span class='glyphicon glyphicon-shopping-cart' aria-hidden='true'>
+                            </span>Cart: <?php displayCartCount(); ?> </a></li>
                     </ul>
                 </div>
             </nav>
@@ -82,7 +85,6 @@
             
             <!-- Display Search Results -->
             <?php displayResults(); ?>
-            
         </div>
     </div>
     </body>

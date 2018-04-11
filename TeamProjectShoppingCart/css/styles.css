@@ -1,0 +1,131 @@
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 45px;
+    color:yellow;
+    text-decoration: underline;
+}
+
+h3 {
+    color:white;
+    font-size: 25px;
+}
+
+.home {
+    background-image: url(../img/videoGame.png);
+}
+
+
+
+.console, .pc , .mobileStyle{
+    background: url(../img/videoGame1.png) no-repeat center center fixed;
+    background-size: cover;
+   
+}
+
+
+
+.box2 {
+    
+    color:white;
+}
+
+#description
+{
+    width: 60%;
+}
+
+h4 {
+    text-decoration: underline;
+    border-color: black;
+}
+
+table {
+    color: white;
+}
+#ps4 {
+    float: center;
+}
+
+#tb {
+    width: 1000px;
+	margin: 0px auto;
+	border-radius: 15px;
+	/*padding: 0px;*/
+	border-style: solid;
+	border-width: 10px;
+	background: url(../img/cracked.png) no-repeat center center fixed;
+	background-size: cover;
+	
+}
+
+
+.formDiv {
+    text-align: center;
+    color:white;
+    width:500px;
+    background-color: maroon;
+    margin: 0px auto;
+}
+.form {
+    text-align: center;
+}
+
+th {
+    border-style: solid;
+    background-color: red;
+    
+}
+
+/* Style for the PC page */
+
+.pc {
+   
+   background-color: dimgray;
+  	background-size: cover;
+   
+}
+
+#tb3 {
+    width: 1000px;
+	margin: 0px auto;
+	border-radius: 15px;
+	padding: 0px;
+	border-style: solid;
+	border-width: 10px;
+	/*border-color: black;*/
+  	background: url(../img/brick2.png) no-repeat center center fixed; 
+
+}
+
+/* Try to fix the code */
+#fixed {
+    padding: 0px;
+}
+
+/* Part of the main page*/
+#controller {
+    background: url("../img/controller3.png");
+    width: 100px;
+    height: 65px;
+    float:fixed;
+}
+#play {
+    width:1000px;
+    margin: 0px auto;
+    background: url("../img/black.png") no-repeat center center fixed;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+
+#buttonAdd {
+    background-color: orange;
+}
+
+#buttonAdded {
+    background-color: green;
+}

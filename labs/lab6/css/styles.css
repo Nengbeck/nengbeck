@@ -1,3 +1,17 @@
 h1,form{
     text-align: center;
 }
+
+div {
+    
+    margin: 0 auto;
+    text-align: center;
+    border: solid;
+    border-radius: 4px;
+    border-color: #275399;
+}
+
+input {
+    
+    color: #275399;
+}
