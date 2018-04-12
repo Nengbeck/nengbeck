@@ -2,7 +2,7 @@
 
     include 'dbConnection.php';
     
-    $conn = getDatabaseConnection("ottermart");
+    $conn = getDatabaseConnection("heroku_27d148a36beec91");
     
     $productId = $_GET['productId'];
     
@@ -21,7 +21,7 @@
     
     
     echo $records[0]['productName'] . "<br/>";
-    echo "<img src='" . $records[0]['productImage'] . "' width='200'/><br/>";
+    echo "<img src= " . $records[0]['productImage'] . " width='200'/><br/>";
     
     
     foreach ($records as $record) {

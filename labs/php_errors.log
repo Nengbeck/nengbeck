@@ -310,3 +310,51 @@ Stack trace:
 [11-Apr-2018 00:04:31 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/nengbeck/labs/lab6/purchaseHistory.php on line 5
 [11-Apr-2018 00:04:31 UTC] PHP Stack trace:
 [11-Apr-2018 00:04:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab6/purchaseHistory.php:0
+[12-Apr-2018 19:00:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'ba8ca6e914b47a:df12719a'@'ip-10-138-189-241.ec2.internal' (using password: YES)' in /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php(20): PDO->__construct('mysql:host=us-c...', 'ba8ca6e914b47a:...', '27d148a36beec91')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab6/index.php(6): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php on line 20
+[12-Apr-2018 19:02:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'ba8ca6e914b47a'@'%' to database 'ottermart'' in /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', 'ba8ca6e914b47a', 'df12719a')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab6/index.php(6): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php on line 21
+[12-Apr-2018 19:02:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'ba8ca6e914b47a'@'%' to database 'ottermart'' in /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', 'ba8ca6e914b47a', 'df12719a')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab6/index.php(6): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php on line 21
+[12-Apr-2018 19:11:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'ba8ca6e914b47a'@'%' to database 'ottermart'' in /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', 'ba8ca6e914b47a', 'df12719a')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab6/index.php(6): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php on line 21
+[12-Apr-2018 19:11:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'ba8ca6e914b47a'@'%' to database 'ottermart'' in /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', 'ba8ca6e914b47a', 'df12719a')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab6/index.php(6): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php on line 21
+[12-Apr-2018 19:11:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'ba8ca6e914b47a'@'%' to database 'ottermart'' in /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', 'ba8ca6e914b47a', 'df12719a')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab6/index.php(6): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php on line 21
+[12-Apr-2018 19:11:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'ba8ca6e914b47a'@'%' to database 'ottermart'' in /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', 'ba8ca6e914b47a', 'df12719a')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab6/index.php(6): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php on line 21
+[12-Apr-2018 19:13:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'ba8ca6e914b47a'@'%' to database 'ottermart'' in /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', 'ba8ca6e914b47a', 'df12719a')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab6/purchaseHistory.php(5): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php on line 21

@@ -3,7 +3,7 @@
     
     include 'dbConnection.php';
     
-    $conn = getDatabaseConnection("ottermart");
+    $conn = getDatabaseConnection("heroku_27d148a36beec91");
     
     function displayCategories() {
         global $conn;
@@ -30,12 +30,6 @@
         if (isset($_GET['searchForm'])) { //checks whether user has submitted the form
             
             echo "<h3>Products Found: </h3>"; 
-            
-            //following sql works but it DOES NOT prevent SQL Injection
-            //$sql = "SELECT * FROM om_product WHERE 1
-            //       AND productName LIKE '%".$_GET['product']."%'";
-            
-            //Query below prevents SQL Injection
             
             $namedParameters = array();
             
