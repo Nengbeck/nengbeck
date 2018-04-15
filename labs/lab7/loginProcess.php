@@ -4,7 +4,7 @@
 
     //print_r($_POST);  //displays values passed in the form
     
-    include '../../dbConnection.php';
+    include 'dbConnection.php';
     
     $conn = getDatabaseConnection("heroku_27d148a36beec91");
     
@@ -40,6 +40,10 @@
     if (empty($record)) {
         
         echo "Wrong username or password!";
+        if(isset($_GET['goHome']))
+    {
+        header("Location:index.php");
+    }
         
     } else {
         
@@ -49,5 +53,8 @@
             header("Location:admin.php");
         
     }
-
 ?>
+
+<form action="index.php">
+                <input type="submit" name="goHome" value="Go Home">
+</form>

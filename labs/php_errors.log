@@ -418,3 +418,105 @@ Stack trace:
 #1 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(9): getDatabaseConnection('heroku_27d148a3...')
 #2 {main}
   thrown in /home/ubuntu/workspace/nengbeck/dbConnection.php on line 9
+[15-Apr-2018 05:14:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'b55ad801841dd3'@'ip-10-138-189-241.ec2.internal' (using password: YES)' in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php(9): PDO->__construct('mysql:host=us-c...', 'b55ad801841dd3', 'a640cafbs')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/admin.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php on line 9
+[15-Apr-2018 05:14:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/dbConnection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/dbConnection.php on line 9
+[15-Apr-2018 05:15:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/dbConnection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/dbConnection.php on line 9
+[15-Apr-2018 05:16:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b02d4fafa2c107'@'%' to database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', 'b02d4fafa2c107', '95ca9032')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/admin.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php on line 21
+[15-Apr-2018 05:16:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b02d4fafa2c107'@'%' to database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', 'b02d4fafa2c107', '95ca9032')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php on line 21
+[15-Apr-2018 05:16:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b02d4fafa2c107'@'%' to database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', 'b02d4fafa2c107', '95ca9032')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php on line 21
+[15-Apr-2018 05:16:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b02d4fafa2c107'@'%' to database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', 'b02d4fafa2c107', '95ca9032')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/admin.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php on line 21
+[15-Apr-2018 05:17:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b02d4fafa2c107'@'%' to database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', 'b02d4fafa2c107', '95ca9032')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php on line 21
+[15-Apr-2018 05:17:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b02d4fafa2c107'@'%' to database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', 'b02d4fafa2c107', '95ca9032')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php on line 21
+[15-Apr-2018 05:17:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b02d4fafa2c107'@'%' to database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', 'b02d4fafa2c107', '95ca9032')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php on line 21
+[15-Apr-2018 05:17:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'b02d4fafa2c107'@'%' to database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', 'b02d4fafa2c107', '95ca9032')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php on line 21
+[15-Apr-2018 05:17:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'admin'@'ip-10-123-180-209.ec2.internal' (using password: YES)' in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', 'admin', 'secret')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php on line 21
+[15-Apr-2018 05:18:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'ip-10-138-189-241.ec2.internal' (using password: NO)' in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', '', '')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php on line 21
+[15-Apr-2018 05:18:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'ip-10-138-189-241.ec2.internal' (using password: NO)' in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', '', '')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php on line 21
+[15-Apr-2018 06:02:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(64): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php on line 29
+[15-Apr-2018 06:05:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(64): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php on line 29
+[15-Apr-2018 06:05:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(64): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php on line 29
