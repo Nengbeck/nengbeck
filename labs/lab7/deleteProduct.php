@@ -1,7 +1,7 @@
 <?php
 
     include '../../dbConnection.php';
-    $connection = getDatabaseConnection("ottermart");
+    $connection = getDatabaseConnection("heroku_27d148a36beec91");
     
     $sql = "DELETE FROM om_product WHERE productId = " . $_GET['productId'];
     

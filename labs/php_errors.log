@@ -358,3 +358,63 @@ Stack trace:
 #1 /home/ubuntu/workspace/nengbeck/labs/lab6/purchaseHistory.php(5): getDatabaseConnection('ottermart')
 #2 {main}
   thrown in /home/ubuntu/workspace/nengbeck/labs/lab6/dbConnection.php on line 21
+[15-Apr-2018 05:00:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/dbConnection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/dbConnection.php on line 9
+[15-Apr-2018 05:00:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/dbConnection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/dbConnection.php on line 9
+[15-Apr-2018 05:05:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/dbConnection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/dbConnection.php on line 9
+[15-Apr-2018 05:06:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/dbConnection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/admin.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/dbConnection.php on line 9
+[15-Apr-2018 05:06:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/dbConnection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/dbConnection.php on line 9
+[15-Apr-2018 05:06:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'b55ad801841dd3'@'ip-10-123-180-209.ec2.internal' (using password: YES)' in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php(9): PDO->__construct('mysql:host=us-c...', 'b55ad801841dd3', 'a640cafbs')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/admin.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php on line 9
+[15-Apr-2018 05:06:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/dbConnection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/dbConnection.php on line 9
+[15-Apr-2018 05:07:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/dbConnection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/dbConnection.php on line 9
+[15-Apr-2018 05:09:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'b55ad801841dd3'@'ip-10-138-189-241.ec2.internal' (using password: YES)' in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php(9): PDO->__construct('mysql:host=us-c...', 'b55ad801841dd3', 'a640cafbs')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/admin.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/dbConnection.php on line 9
+[15-Apr-2018 05:09:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/dbConnection.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/dbConnection.php on line 9

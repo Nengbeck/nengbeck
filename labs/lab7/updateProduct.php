@@ -1,7 +1,7 @@
 <?php
     include '../../dbConnection.php';
     
-    $connection = getDatabaseConnection("ottermart");
+    $connection = getDatabaseConnection("heroku_27d148a36beec91");
     
     function getCategories($catId) {
     global $connection;
