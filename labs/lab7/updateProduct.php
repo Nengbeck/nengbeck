@@ -1,5 +1,5 @@
 <?php
-    include '../../dbConnection.php';
+    include 'dbConnection.php';
     
     $connection = getDatabaseConnection("heroku_27d148a36beec91");
     
