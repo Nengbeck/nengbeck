@@ -9,7 +9,8 @@
 }
 
 #man {
-    
+    color: maroon;
+    background-color: maroon;
     margin: 20px auto;
     width: 600px;
     height: 600px;
@@ -19,7 +20,7 @@
 }
 
 #word {
-    
+    color: blue;
     font-size: 1.8em;
 }
 
@@ -32,4 +33,13 @@
     
     padding: 7px 7px !important;
     margin: 0px 2px;
+}
+#header{
+ background-color: silver;   
+}
+#body {
+    background-color: grey;
+}
+#letters{
+    color: maroon;
 }
