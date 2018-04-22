@@ -11,7 +11,8 @@
     $statement = $connection->prepare($sql);
     $statement->execute();
     $records = $statement->fetchAll(PDO::FETCH_ASSOC);
-    foreach ($records as $record) {
+    foreach ($records as $record) 
+    {
         echo "<option  ";
         echo ($record["catId"] == $catId)? "selected": ""; 
         echo " value='".$record["catId"] ."'>". $record['catName'] ." </option>";

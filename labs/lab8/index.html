@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Hangman</title>
-        <link  href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         
@@ -10,106 +10,49 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-        
-   
-   
     </head>
+    
     <body>
 
         <div class='container text-center'>
             <header>
                <h1>Hangman</h1>
+               <h4> Javascript Edition </h4>
             </header>
             
-            <h2 id="word"></h2>
-            <div id="letters">
-                <!-- <input type="text" id="letterBox" size="3">
-                     <button id="letterBtn"> Submit </button> -->
-                
-                <button class="letter" id="A"> A </button>  
-                <button class="letter" id="B"> B </button> 
-                <button class="letter" id="C"> C </button> 
-                <button class="letter" id="D"> D </button> 
-                <button class="letter" id="Z"> Z </button>
-                     
+            <div id="word"></div>
+            
+            <div id="hint">
+            <button>Hint</button>
             </div>
+            
+            <div id="letters"></div>
             
             <div id="man">
                <img src="img/stick_0.png" id="hangImg">
             </div>
             
+            <div id="won">
+                <h2>You Won!</h2>
+                <button class="replayBtn btn btn-success">Play Again</button>
+            </div>
+            
+            <div id="lost">
+                <h2>You Lost!</h2>
+                <button class="replayBtn btn btn-warning">Play Again</button>
+            </div>
+            
+            <div id="history">
+            <h4>History </h4>
+            </div>
+            
         </div>
 
-
-
-    <script>
-             
-             //VARIABLES
-             var selectedWord = "";
-             var selectedHint = "";
-             var board = []; //array
-             //var board = new Array;
-             var remainingGuesses = 6;
-             var words = ["snake", "monkey", "beetle", "horse", "dog"];
-             
-             
-             //EVENTS
-             window.onload = startGame();
-             
-             $("#letterBtn").click( function(){ 
-               
-                 alert( $("#letterBox").val() ); 
-                 
-             } );
-             
-             //$("#A").click( function(){ alert("A!")}); 
-             
-             $(".letter").click( function() { alert( $(this).attr("id") ); })
-             
-             
-             //document.getElementById("letterBtn")
-             
-             
-             function startGame() {
-                 
-                 pickWord();
-                 initBoard();
-                 updateBoard();
-                 
-             }
-             
-             //alert(words[0]);
-             //console.log(words[0]);
-             
-             function pickWord() {
-                var randomInt = Math.floor(Math.random() * words.length );
-                selectedWord = words[randomInt];
-                console.log(selectedWord);
-             }
-             
-            //  for (var i=0; i < selectedWord.length; i++) {
-            //      board.push("_");
-            //  }
-             
-             function initBoard() {
-                 for (var letters in selectedWord) {
-                     board.push("_");
-                 }
-             
-                 console.log(board);
-             }
-             
-             
-             function updateBoard() {
-                 for (var letter of board) {
+    <script language = "javascript" src="js/hangman.js"></script>
     
-                    document.getElementById("word").innerHTML += letter + " ";
-                     
-                 }
-             }
-             
-         </script>
-
     </body>
+    
+    <footer>
+        
+    </footer>
 </html>
