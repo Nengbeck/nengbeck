@@ -346,7 +346,7 @@
 				margin:0 auto;
 			}
 			body{
-				background-color: black;
+				background-image: url("bg.jpg");
 	
 			}
 			#head{

@@ -3,82 +3,117 @@
     <head>
         <meta charset="UTF-8">
         <title>AJAX: Sign Up Page</title>
-
         <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-        <script>
         
-            function validateForm() {
-                
-                return false;
-           
-            }
-            
-        </script>
         
         <script>
             
-            $(document).ready(function(){
+             var errorCount = 0;
+            $(document).ready( function(){
                 
-                //Events//////////////////////////////////////////////////////////////////////////////////////////////////////
-                //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                //EVENTS
                 
-                $("#state").change( function(){
-                    
-                   $.ajax({
-                       
-                       type:"GET",
-                       url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
-                       dataType: "json",
-                       data: { "state": $("#state").val() },
-                       success: function(data,status){
-                           
-                            //alert(data[0].county); 
-                        $("#county").html("<option>Select One</option>");
-                        
-                        for(var i=0; i<data.length; i++)
-                        {
-                           $("#county").append("<option>" + data[i].county + "</option>"); 
-                        }
-                        
-                       },
-                       complete: function(data,success){
-                           
-                       }
-                   }); 
-                    
-                });
-                
-                
-                $("#zipCode").change( function(){ 
-                    //alert( $("#zipCode").val() );
+                $("#username").change( function(){ 
+                    //alert( $("#username").val() )
                     
                     $.ajax({
 
                         type: "GET",
-                        url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+                        url: "checkUsernameAPI.php",
                         dataType: "json",
-                        data: { "zip": $("#zipCode").val() },
+                        data: { "username": $("#username").val() },
                         success: function(data,status) {
-                        //alert(data);
+                             //alert(data);
+                             
+                             if (!data) {  //data == false
+                             
+                                //alert("Username is Available");
+                                document.getElementById("usernameP").innerHTML = "<span style='color: green'><b>Username is available!</b></span>";
+                                errorCount = 0;
+                             } else {
+                                 
+                                //alert("Username is ALREADY TAKEN");
+                                document.getElementById("usernameP").innerHTML = "<span style='color: red'><b>Username is already Taken!</b></span>";
+                                errorCount = 1; 
+                             }
+                             
                         
-                        $("#city").html(data.city);
-                        $("#lat").html(data.latitude);
-                        $("#long").html(data.longitude);
-                        //$("#state").html(data.state);
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                    }
+
+});//ajax
+                    
+                });
+                
+                $("#state").change( function () {
+                    //alert("hi")
+                    //alert( $("#state").val());
+                    
+                    $.ajax({
+
+                        type: "GET",
+                        url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
+                        dataType: "json",
+                        data: { "state": $("#state").val()},
+                        success: function(data,status) {
+                        //alert(data[0]['county']);
+                        //alert(data[0].county);
+                        $("#county").html("<option>Select One</option>");
+                        for(var i=0; i<data.length; i++)
+                        {
+                           $("#county").append("<option>" + data[i].county + "</option>"); 
+                        }
                         
                         },
                         complete: function(data,status) { //optional, used for debugging purposes
                         //alert(status);
                         }
                         
-                        });//ajax
+                    });//ajax
                     
-                });//closing zipCode event
+                    
+                });
                 
+                $("#zipCode").change( function(){  
+                    //alert( $("#zipCode").val() );
+                    
+                    $.ajax({
+                        type: "GET",
+                        url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+                        dataType: "json",
+                        data: { "zip": $("#zipCode").val() },
+                        success: function(data,status) {
+                        
+                           //alert(data.city);
+                           $("#city").html(data.city);
+                        
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        }
+                        
+                    });//ajax
+                    
+                } ); //#zipCode Event 
+
+            $("#password2").change (function ()
+            {
+                //alert($("#password2").val());
+                if ($("#password2").val() != $("#password").val() && $("#password2").val() != "" && $("#password").val() != "")
+                {
+                    $("#passwordP").html("<span style='color: red'><b>Passwords don't match!</b></span>");
+                    errorCount = 1;;
+                }
+                else 
+                {
+                    $("#passwordP").html("<span style='color: green'><b>Passwords match!</b></span>");
+                    errorCount=0;
+                }
+            })
                 
-                
-                
-            });//documentReady
+            } ); //documentReady
             
             
         </script>
@@ -92,18 +127,18 @@
         <form onsubmit="return validateForm()">
             <fieldset>
                <legend>Sign Up</legend>
-                First Name:  <input type="text"><br> 
-                Last Name:   <input type="text"><br> 
+                First Name:  <input type="text" id="fName"><br> 
+                Last Name:   <input type="text" id="lName"><br> 
                 Email:       <input type="text"><br> 
                 Phone Number:<input type="text"><br><br>
                 Zip Code:    <input type="text" id="zipCode"><br>
                 City:        <span id="city"></span>
                 <br>
-                Latitude:    <span id="lat"></span>
+                Latitude: 
                 <br>
-                Longitude:   <span id="long"></span>
+                Longitude:
                 <br><br>
-                State:      
+                State:     
                 <select id="state">
                     <option value="">Select One</option>
                     <option value="ca"> California</option>
@@ -114,15 +149,60 @@
                 
                 Select a County: <select id="county"></select><br>
                 
-                Desired Username: <input type="text"><br>
+                Desired Username: <input id="username" type="text"><br>
+                <p id="usernameP"></p>
                 
-                Password: <input type="password"><br>
+                Password: <input id="password" type="password"><br>
                 
-                Type Password Again: <input type="password"><br>
+                Type Password Again: <input id="password2" type="password"><br>
+                <p id="passwordP"></p>
                 
                 <input type="submit" value="Sign up!">
+                <p id="addedUser"></p> 
             </fieldset>
         </form>
+        <script>
+        
+       
+        
+            function validateForm() 
+            {
+                //alert();
+                if(errorCount == 0)
+                {
+                    alert($("#username").val());
+                     $.ajax({
+
+                        type: "GET",
+                        url: "addUserAPI.php",
+                        dataType: "json",
+                        data: { 
+                                "username": $("#username").val(), 
+                                "password": $("#password").val(),
+                                "fName": $("#fName").val(),
+                                "lName": $("#lName").val(),
+                                "zipcode": $("#zipcode").val()
+                        },
+                        success: function(data,status) {
+                        
+                        document.getElementById("#addedUser").innerHTML = "<span style='color: green'><b>User has been added</b></span>";
+                               
+                            
+                             
+                             
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        //alert(data);
+                    }
+
+            });//ajax
+                }
+                return false;
+           
+            }
+            
+        </script>
     
     </body>
 </html>
