@@ -107,6 +107,6 @@ function displayArray()
                     <br />
                     <br />
                     <img src="img/csumb_logo.jpg" alt="CSUMB Logo" height = 125, width = 200/>
-            
+                
         </footer>
 </html>
