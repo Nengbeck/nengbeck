@@ -171,7 +171,7 @@
 			
 			function gameloop(){
 				
-				//backGroundTrack.play();
+				backGroundTrack.play();
 				if(autofire){
 					currentCount += 1;
 					if(currentCount % 2 == 0) {
@@ -341,11 +341,11 @@
 		<style>
 			#gameScreen{
 				position: relative;
-				/*background-color: silver;*/
+				background-color: silver;
 				overflow: hidden;
 				margin:0 auto;
 			}
-			#body{
+			body{
 				background-color: black;
 	
 			}
@@ -359,14 +359,22 @@
 			#SCREEN{
 				margin : 0 auto;
 			}
-			#footer{
-				margin : 0 auto;
-			}
-			#img{
-				margin : 0 auto;
-			}
+
 			#footerText{
 				color: limegreen;
+			}
+			footer{
+				margin : 0 auto;
+				padding-right : 50px;
+				 text-align: center;
+			}
+			head{
+				margin : 0 auto;
+			}
+			h3{
+				margin : 0 auto;
+				padding-left: '25px';
+				text-align: center;
 			}
 
 		</style>
