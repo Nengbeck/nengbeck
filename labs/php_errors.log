@@ -98,3 +98,34 @@ Stack trace:
 #0 /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php(28): PDOStatement->execute(NULL)
 #1 {main}
   thrown in /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php on line 28
+[25-Apr-2018 23:56:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php(28): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php on line 28
+[26-Apr-2018 00:00:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php(28): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php on line 28
+[26-Apr-2018 00:03:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php(28): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php on line 28
+[26-Apr-2018 00:08:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php(28): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php on line 28
+[26-Apr-2018 00:09:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php(28): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php on line 28
+[26-Apr-2018 00:09:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php(28): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php on line 28
+[28-Apr-2018 04:36:06 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/nengbeck/labs/lab9/signup.php on line 6

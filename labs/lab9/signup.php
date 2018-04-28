@@ -1,3 +1,18 @@
+<?php
+session_start();
+
+if(!isset($_SESSION['zipcode'])) {
+        
+        $_SESSION['zipcode'] = $_POST['zipcode'];
+    }
+    
+    
+//$_SESSION[''];
+
+
+
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -47,6 +62,7 @@
                     
                 });
                 
+                
                 $("#state").change( function () {
                     //alert("hi")
                     //alert( $("#state").val());
@@ -76,8 +92,9 @@
                     
                 });
                 
+                
                 $("#zipCode").change( function(){  
-                    //alert( $("#zipCode").val() );
+                    alert( $("#zipCode").val() );
                     
                     $.ajax({
                         type: "GET",
@@ -86,17 +103,31 @@
                         data: { "zip": $("#zipCode").val() },
                         success: function(data,status) {
                         
-                           //alert(data.city);
                            $("#city").html(data.city);
+                           $("#lat").html(data.latitude);
+                           $("#long").html(data.longitude);
                         
                         },
                         complete: function(data,status) { //optional, used for debugging purposes
-                        //alert(status);
+                        
+                        
+                        //if(typeof data.zipcode == 'undefined')
+                        //if($("#long").html(data.longitude) == 'undefined')
+                        if($("#zipCode").val()== "")
+                        {
+                            $("#zip").html("No zipcode found...");
+                            $("#zip").html("<span style='color: red'><b>No matches found for that Zipcode</b></span>");
+                        }
+                        
+                          
+                            
                         }
                         
                     });//ajax
                     
+                    
                 } ); //#zipCode Event 
+                
 
             $("#password2").change (function ()
             {
@@ -115,7 +146,7 @@
                 
             } ); //documentReady
             
-            
+
         </script>
 
     </head>
@@ -124,19 +155,19 @@
     
        <h1> Sign Up Form </h1>
     
-        <form onsubmit="return validateForm()">
+        <form onsubmit="return validateForm()" method="POST">
             <fieldset>
                <legend>Sign Up</legend>
                 First Name:  <input type="text" id="fName"><br> 
                 Last Name:   <input type="text" id="lName"><br> 
                 Email:       <input type="text"><br> 
                 Phone Number:<input type="text"><br><br>
-                Zip Code:    <input type="text" id="zipCode"><br>
-                City:        <span id="city"></span>
+                Zip Code:    <input name="zipcodeForm"type="text" id="zipCode"><span id="zip"></span><br>
+                City:        <span id="city" value=""></span>
                 <br>
-                Latitude: 
+                Latitude:    <span id="lat"></span>
                 <br>
-                Longitude:
+                Longitude:   <span id="long"></span>
                 <br><br>
                 State:     
                 <select id="state">
@@ -163,14 +194,15 @@
         </form>
         <script>
         
-       
+       /////////////////////////////////////////////////////////////////////////
+       /////////////////////////////////////////////////////////////////////////
         
             function validateForm() 
             {
                 //alert();
                 if(errorCount == 0)
                 {
-                    alert($("#username").val());
+                    alert(data);
                      $.ajax({
 
                         type: "GET",
@@ -181,10 +213,11 @@
                                 "password": $("#password").val(),
                                 "fName": $("#fName").val(),
                                 "lName": $("#lName").val(),
-                                "zipcode": $("#zipcode").val()
+                                "zipCode": $("#zipCode").val()
                         },
                         success: function(data,status) {
                         
+                        alert(data);
                         document.getElementById("#addedUser").innerHTML = "<span style='color: green'><b>User has been added</b></span>";
                                
                             
