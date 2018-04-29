@@ -1,4 +1,4 @@
-<?php
+<!--<?php
 session_start();
 
 if(!isset($_SESSION['zipcode'])) {
@@ -8,25 +8,41 @@ if(!isset($_SESSION['zipcode'])) {
     
     
 //$_SESSION[''];
+//  Was considering running the php way and using session variables to save... 
+//  the content of the password lines. but finally figured out how to access 
+//  the correct data with if(!data).. leaving this as reference later.
 
 
-
-?>
+?> -->
 
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
         <title>AJAX: Sign Up Page</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.bundle.min.js" integrity="sha384-lZmvU/TzxoIQIOD9yQDEpvxp6wEU32Fy0ckUgOH4EIlMOCdR823rg4+3gWRwnX1M" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
         
         
         <script>
             
-             var errorCount = 0;
+            var errorCount = 0;
             $(document).ready( function(){
                 
-                //EVENTS
+                //////////////////////////////////// EVENTS ////////////////////////////////////
+                ////////////////////////////////////////////////////////////////////////////////
+                
+                $("#submit").click( function() {
+                    if ($("#password").val() != $("#password2").val()){
+                        
+                        alert("Your passwords are not matching, please re-enter your information.");
+                    }
+                    
+                    
+                    
+                });
                 
                 $("#username").change( function(){ 
                     //alert( $("#username").val() )
@@ -58,7 +74,7 @@ if(!isset($_SESSION['zipcode'])) {
                         //alert(status);
                     }
 
-});//ajax
+                });//ajax
                     
                 });
                 
@@ -88,14 +104,9 @@ if(!isset($_SESSION['zipcode'])) {
                         }
                         
                     });//ajax
-                    
-                    
                 });
                 
-                
                 $("#zipCode").change( function(){  
-                    alert( $("#zipCode").val() );
-                    
                     $.ajax({
                         type: "GET",
                         url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
@@ -106,21 +117,23 @@ if(!isset($_SESSION['zipcode'])) {
                            $("#city").html(data.city);
                            $("#lat").html(data.latitude);
                            $("#long").html(data.longitude);
-                        
+                           $("#zipper").html(" ");
+                           
+                            if(!data) {
+                            
+                            //$("#zip").html("No zipcode found...");
+                            $("#zipper").html("<span style='color: red'><b>No matches found for that Zipcode</b></span>");
+                            $("#city").html(" ");
+                            $("#lat").html(" ");
+                            $("#long").html(" ");
+                        }
                         },
                         complete: function(data,status) { //optional, used for debugging purposes
-                        
-                        
+            
                         //if(typeof data.zipcode == 'undefined')
                         //if($("#long").html(data.longitude) == 'undefined')
-                        if($("#zipCode").val()== "")
-                        {
-                            $("#zip").html("No zipcode found...");
-                            $("#zip").html("<span style='color: red'><b>No matches found for that Zipcode</b></span>");
-                        }
-                        
-                          
-                            
+                        //if($("#zipCode").val()== "")
+                        // I kept trying to figure out the way to acess the data when the API couldn't return a result. (!data) seemed to be the answer.
                         }
                         
                     });//ajax
@@ -144,31 +157,46 @@ if(!isset($_SESSION['zipcode'])) {
                 }
             })
                 
-            } ); //documentReady
+            }); 
             
-
         </script>
-
+<!--//////////////////////////////////////// BODY //////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////// -->
     </head>
 
     <body>
     
-       <h1> Sign Up Form </h1>
+       <h1 class="text-center"> Sign Up Form </h1>
     
-        <form onsubmit="return validateForm()" method="POST">
+        <form onsubmit="return validateForm()" method="POST" class="text-center">
             <fieldset>
-               <legend>Sign Up</legend>
-                First Name:  <input type="text" id="fName"><br> 
-                Last Name:   <input type="text" id="lName"><br> 
-                Email:       <input type="text"><br> 
+               <legend class="p-3 mb-2 bg-success text-white">Sign Up</legend>
+               
+                <div id="firstname_lastname"class="border">
+                First Name:  <input type="text" id="fName"><br>
+                <br>
+                Last Name:   <input type="text" id="lName"><br>
+                </div>
+                <br><br>
+                
+                <div id="firstname_lastname"class="border">
+                Email:       <input type="text"><br>
+                <br>
                 Phone Number:<input type="text"><br><br>
-                Zip Code:    <input name="zipcodeForm"type="text" id="zipCode"><span id="zip"></span><br>
+                Zip Code:    <input name="zipcodeForm"type="text" id="zipCode"><span id="zipper"></span><br>
+                </div>
+                <br>
+                
                 City:        <span id="city" value=""></span>
                 <br>
+                
                 Latitude:    <span id="lat"></span>
                 <br>
+                
                 Longitude:   <span id="long"></span>
                 <br><br>
+                
+                <div id="firstname_lastname"class="border">
                 State:     
                 <select id="state">
                     <option value="">Select One</option>
@@ -176,20 +204,30 @@ if(!isset($_SESSION['zipcode'])) {
                     <option value="ny"> New York</option>
                     <option value="tx"> Texas</option>
                     <option value="va"> Virginia</option>
-                </select><br />
+                </select></br>
                 
+                <br>
                 Select a County: <select id="county"></select><br>
+                </div>
+                <br>
                 
-                Desired Username: <input id="username" type="text"><br>
+                <div id="firstname_lastname"class="border">
+                Desired Username: <input id="username" type="text">
+                </div>
                 <p id="usernameP"></p>
+                <br>
                 
+                <div id="firstname_lastname"class="border">
                 Password: <input id="password" type="password"><br>
-                
+                <br>
+            
                 Type Password Again: <input id="password2" type="password"><br>
+                </div>
                 <p id="passwordP"></p>
                 
-                <input type="submit" value="Sign up!">
-                <p id="addedUser"></p> 
+                <input class="btn btn-success dropdown-toggle active" type="submit" id="submit" value="Sign up!">
+                <p id="addedUser"></p>
+                
             </fieldset>
         </form>
         <script>
