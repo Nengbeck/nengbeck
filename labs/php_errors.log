@@ -129,3 +129,36 @@ Stack trace:
 #1 {main}
   thrown in /home/ubuntu/workspace/nengbeck/labs/lab9/addUserAPI.php on line 28
 [28-Apr-2018 04:36:06 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/nengbeck/labs/lab9/signup.php on line 6
+[29-Apr-2018 04:18:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab9/checkUsernameAPI.php(5): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/dbConnection.php on line 19
+[29-Apr-2018 04:28:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab9/checkUsernameAPI.php(5): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/dbConnection.php on line 19
+[29-Apr-2018 04:28:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab9/checkUsernameAPI.php(5): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/dbConnection.php on line 19
+[29-Apr-2018 04:49:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab9/checkUsernameAPI.php(5): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/dbConnection.php on line 19
+[29-Apr-2018 04:50:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/labs/lab9/checkUsernameAPI.php(5): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/dbConnection.php on line 19
+[29-Apr-2018 06:30:31 UTC] PHP Fatal error:  Call to undefined function length() in /home/ubuntu/workspace/nengbeck/labs/lab9/checkUsernameAPI.php on line 32
+[29-Apr-2018 06:30:31 UTC] PHP Stack trace:
+[29-Apr-2018 06:30:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab9/checkUsernameAPI.php:0

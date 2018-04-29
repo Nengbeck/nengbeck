@@ -1,17 +1,13 @@
 <!--<?php
 session_start();
 
-if(!isset($_SESSION['zipcode'])) {
-        
-        $_SESSION['zipcode'] = $_POST['zipcode'];
-    }
-    
-    
-//$_SESSION[''];
-//  Was considering running the php way and using session variables to save... 
-//  the content of the password lines. but finally figured out how to access 
-//  the correct data with if(!data).. leaving this as reference later.
+if(!isset($_SESSION['username'])){
+    $_SESSION['username'] = array();
+}
 
+//tried to use the heroku databse, but couldn't get it to work.
+//tried to use session variables, couldn't do it.
+//leaving this for reference
 
 ?> -->
 
@@ -65,7 +61,8 @@ if(!isset($_SESSION['zipcode'])) {
                                  
                                 //alert("Username is ALREADY TAKEN");
                                 document.getElementById("usernameP").innerHTML = "<span style='color: red'><b>Username is already Taken!</b></span>";
-                                errorCount = 1; 
+                                errorCount = 1;
+                                
                              }
                              
                         
@@ -276,4 +273,13 @@ if(!isset($_SESSION['zipcode'])) {
         </script>
     
     </body>
+    	<footer id="footer">
+		<br><br>
+		<h3 id= "footerText">CST336 Internet Programming. 2018&copy; Engbeck </h3></br>
+                    </br>
+                    </br>
+                    <img id= "img" src="csumb_logo.jpg" alt="CSUMB Logo" height = 125, width = 200/>
+                    <img src="buddy_verified.png" alt="CSUMB Logo" height = 125, width = 200/>
+
+	</footer>
 </html>
