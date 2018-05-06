@@ -1,0 +1,13 @@
+[02-May-2018 22:21:58 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/nengbeck/challenges/poll/poll.php on line 125
+[02-May-2018 22:21:58 UTC] PHP Stack trace:
+[02-May-2018 22:21:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/challenges/poll/poll.php:0
+[02-May-2018 22:21:58 UTC] PHP   2. log() /home/ubuntu/workspace/nengbeck/challenges/poll/poll.php:125
+[02-May-2018 22:22:19 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/nengbeck/challenges/poll/poll.php on line 125
+[02-May-2018 22:22:19 UTC] PHP Stack trace:
+[02-May-2018 22:22:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/challenges/poll/poll.php:0
+[02-May-2018 22:22:19 UTC] PHP   2. log() /home/ubuntu/workspace/nengbeck/challenges/poll/poll.php:125
+[02-May-2018 22:22:24 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/nengbeck/challenges/poll/poll.php on line 125
+[02-May-2018 22:22:24 UTC] PHP Stack trace:
+[02-May-2018 22:22:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/challenges/poll/poll.php:0
+[02-May-2018 22:22:24 UTC] PHP   2. log() /home/ubuntu/workspace/nengbeck/challenges/poll/poll.php:125
+[02-May-2018 22:28:32 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/nengbeck/challenges/poll/poll.php on line 118

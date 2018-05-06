@@ -65,19 +65,25 @@ function displayAllProducts(){
             <button type="submit" class="btn btn-success" value="Add Product">Buy Soon</button>
         </form>
         <br><br>
+        
         <form action="addProduct.php" class="col-md-5-md-offset-9">
             <button type="submit" class="btn btn-primary" value="Add Product">Add Product</button>
+       
+        <br><br>
         </form>
-        <br></br>
-        <form action="logout.php"class="col-md-4 col-md-offset-11">
+        
+        <form action="logout.php" class="col-md-5-md-offset-9">
             <!-- <input type="submit" value="log Out"/> -->
             <button type="submit" class="btn btn-danger" value="log Out">Log Out</button>
         </form>
         <br><br>
+        
         </div>
-        <br />
+        
+        
+        <br>
         <div class="col-md-4 col-md-offset-4">
-        <strong> Products: </strong> <br />
+        <strong> Current Inventory: </strong> <br />
         
         <?php $records=displayAllProducts();
             foreach($records as $record) {

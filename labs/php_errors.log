@@ -162,3 +162,51 @@ Stack trace:
 [29-Apr-2018 06:30:31 UTC] PHP Fatal error:  Call to undefined function length() in /home/ubuntu/workspace/nengbeck/labs/lab9/checkUsernameAPI.php on line 32
 [29-Apr-2018 06:30:31 UTC] PHP Stack trace:
 [29-Apr-2018 06:30:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab9/checkUsernameAPI.php:0
+[30-Apr-2018 21:53:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.pets' doesn't exist' in /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab10/index.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/labs/lab10/index.php(6): getAllPets()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab10/index.php on line 17
+[30-Apr-2018 21:53:17 UTC] PHP Warning:  include(../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/nengbeck/labs/lab10/index.php on line 11
+[30-Apr-2018 21:53:17 UTC] PHP Stack trace:
+[30-Apr-2018 21:53:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:0
+[30-Apr-2018 21:53:17 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:6
+[30-Apr-2018 21:53:17 UTC] PHP Warning:  include(): Failed opening '../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/nengbeck/labs/lab10/index.php on line 11
+[30-Apr-2018 21:53:17 UTC] PHP Stack trace:
+[30-Apr-2018 21:53:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:0
+[30-Apr-2018 21:53:17 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:6
+[30-Apr-2018 21:53:17 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/nengbeck/labs/lab10/index.php on line 13
+[30-Apr-2018 21:53:17 UTC] PHP Stack trace:
+[30-Apr-2018 21:53:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:0
+[30-Apr-2018 21:53:17 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:6
+[30-Apr-2018 21:54:00 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/ubuntu/workspace/nengbeck/labs/lab10/index.php on line 18
+[30-Apr-2018 21:54:00 UTC] PHP Stack trace:
+[30-Apr-2018 21:54:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:0
+[30-Apr-2018 21:54:00 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:6
+[30-Apr-2018 21:55:55 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/ubuntu/workspace/nengbeck/labs/lab10/index.php on line 18
+[30-Apr-2018 21:55:55 UTC] PHP Stack trace:
+[30-Apr-2018 21:55:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:0
+[30-Apr-2018 21:55:55 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:6
+[30-Apr-2018 21:55:56 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/ubuntu/workspace/nengbeck/labs/lab10/index.php on line 18
+[30-Apr-2018 21:55:56 UTC] PHP Stack trace:
+[30-Apr-2018 21:55:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:0
+[30-Apr-2018 21:55:56 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:6
+[30-Apr-2018 21:55:57 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/ubuntu/workspace/nengbeck/labs/lab10/index.php on line 18
+[30-Apr-2018 21:55:57 UTC] PHP Stack trace:
+[30-Apr-2018 21:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:0
+[30-Apr-2018 21:55:57 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:6
+[30-Apr-2018 21:56:14 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/ubuntu/workspace/nengbeck/labs/lab10/index.php on line 18
+[30-Apr-2018 21:56:14 UTC] PHP Stack trace:
+[30-Apr-2018 21:56:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:0
+[30-Apr-2018 21:56:14 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:6
+[30-Apr-2018 21:56:26 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/ubuntu/workspace/nengbeck/labs/lab10/index.php on line 18
+[30-Apr-2018 21:56:26 UTC] PHP Stack trace:
+[30-Apr-2018 21:56:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:0
+[30-Apr-2018 21:56:26 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:26
+[30-Apr-2018 21:57:32 UTC] PHP Warning:  include(inc/pets.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/nengbeck/labs/lab10/index.php on line 4
+[30-Apr-2018 21:57:32 UTC] PHP Stack trace:
+[30-Apr-2018 21:57:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:0
+[30-Apr-2018 21:57:32 UTC] PHP Warning:  include(): Failed opening 'inc/pets.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/nengbeck/labs/lab10/index.php on line 4
+[30-Apr-2018 21:57:32 UTC] PHP Stack trace:
+[30-Apr-2018 21:57:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:0

@@ -37,7 +37,7 @@ if (isset($_GET['submitProduct'])) {
     $namedParameters[':productImage'] = $productImage;
     $namedParameters[':price'] = $productPrice;
     $namedParameters[':catId'] = $catId;
-     $statement = $conn->prepare($sql);
+    $statement = $conn->prepare($sql);
     $statement->execute($namedParameters);
 }
 
