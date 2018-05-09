@@ -6,7 +6,7 @@
     
     include 'dbConnection.php';
     
-    $conn = getDatabaseConnection("finalProject");
+    $conn = getDatabaseConnection("heroku_27d148a36beec91");
     
     $username = $_POST['username'];
     $password = sha1($_POST['password']);

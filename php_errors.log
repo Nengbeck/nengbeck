@@ -726,3 +726,21 @@ Stack trace:
 [09-May-2018 17:32:32 UTC] PHP Stack trace:
 [09-May-2018 17:32:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/admin.php:0
 [09-May-2018 17:53:39 UTC] PHP Parse error:  syntax error, unexpected '"<br>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 199
+[09-May-2018 18:16:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php(22): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/finalProject/admin.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php on line 22
+[09-May-2018 18:16:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php(22): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/finalProject/index.php(6): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php on line 22
+[09-May-2018 18:17:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php(22): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/finalProject/index.php(6): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php on line 22

@@ -6,7 +6,7 @@ if(!isset( $_SESSION['adminName']))
   header("Location:index.php");
 }
 include 'dbConnection.php';
-$conn = getDatabaseConnection("finalProject");
+$conn = getDatabaseConnection("heroku_27d148a36beec91");
 
 function displayAllProducts(){
     global $conn;

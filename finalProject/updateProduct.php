@@ -2,7 +2,7 @@
 session_start();
     include 'dbConnection.php';
     
-    $connection = getDatabaseConnection("finalProject");
+    $connection = getDatabaseConnection("heroku_27d148a36beec91");
     
     function getCategories($catID) {
     global $connection;

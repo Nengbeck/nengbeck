@@ -3,7 +3,7 @@
 session_start();
 
 include 'dbConnection.php';
-$conn = getDatabaseConnection("finalProject");
+$conn = getDatabaseConnection("heroku_27d148a36beec91");
 
 
 function displayAllProducts(){

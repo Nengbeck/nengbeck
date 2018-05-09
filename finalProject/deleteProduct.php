@@ -2,7 +2,7 @@
 session_start();
 
     include 'dbConnection.php';
-    $connection = getDatabaseConnection("finalProject");
+    $connection = getDatabaseConnection("heroku_27d148a36beec91");
     $sql = "DELETE FROM fp_products WHERE productID = " . $_GET['productID'];
     $statement = $connection->prepare($sql);
     $statement->execute(); 
