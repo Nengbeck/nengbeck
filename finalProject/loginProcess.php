@@ -35,11 +35,11 @@
     $stmt->execute($np);
     $record = $stmt->fetch(PDO::FETCH_ASSOC); //expecting one single record
     
-    //print_r($record);
-
+    
     if (empty($record)) {
         
-        echo "Wrong username or password!";
+        echo " <div id='text'><br><br><strong>Wrong username or password!</strong>";
+        
         if(isset($_GET['goHome']))
     {
         header("Location:index.php");
@@ -54,7 +54,35 @@
         
     }
 ?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Wrong Login information </title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+            #loginForm{
+                color:green;
+            }
+            #body{
+                background-color:silver;
+            }
+            #text{
+                text-align:center;
+                color:green;
+            }
+            
+            
+        </style>
+    </head>
+    <body id="body">
 
-<form action="index.php">
-                <input type="submit" name="goHome" value="Go Home">
+<form id="loginForm"action="index.php">
+    <br>
+        <input type="submit" class="btn btn-warning" name="goHome" value="Go Home">
 </form>
+</body>
