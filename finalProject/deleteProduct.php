@@ -1,17 +1,13 @@
 <?php
+session_start();
 
     include 'dbConnection.php';
-    $connection = getDatabaseConnection("heroku_27d148a36beec91");
-    
-    $sql = "DELETE FROM om_product WHERE productId = " . $_GET['productId'];
-    
+    $connection = getDatabaseConnection("finalProject");
+    $sql = "DELETE FROM fp_products WHERE productID = " . $_GET['productID'];
     $statement = $connection->prepare($sql);
-    $statement->execute(); //commented out just for further development
-
+    $statement->execute(); 
 
     header("Location: admin.php");
-
-    
 
 ?>
 

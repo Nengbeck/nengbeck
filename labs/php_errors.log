@@ -210,3 +210,46 @@ Stack trace:
 [30-Apr-2018 21:57:32 UTC] PHP Warning:  include(): Failed opening 'inc/pets.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/nengbeck/labs/lab10/index.php on line 4
 [30-Apr-2018 21:57:32 UTC] PHP Stack trace:
 [30-Apr-2018 21:57:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab10/index.php:0
+[08-May-2018 00:35:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_c3a87e9274bc026.om_admin' doesn't exist' in /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(35): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php on line 35
+[08-May-2018 00:36:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_c3a87e9274bc026.om_admin' doesn't exist' in /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(35): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php on line 35
+[09-May-2018 03:32:23 UTC] PHP Fatal error:  Call to undefined function length() in /home/ubuntu/workspace/nengbeck/labs/lab9/checkUsernameAPI.php on line 32
+[09-May-2018 03:32:23 UTC] PHP Stack trace:
+[09-May-2018 03:32:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab9/checkUsernameAPI.php:0
+[09-May-2018 03:32:28 UTC] PHP Fatal error:  Call to undefined function length() in /home/ubuntu/workspace/nengbeck/labs/lab9/checkUsernameAPI.php on line 32
+[09-May-2018 03:32:28 UTC] PHP Stack trace:
+[09-May-2018 03:32:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/labs/lab9/checkUsernameAPI.php:0
+[09-May-2018 09:31:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_c3a87e9274bc026.om_category' doesn't exist' in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(89): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php on line 12
+[09-May-2018 09:32:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_c3a87e9274bc026.om_admin' doesn't exist' in /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(35): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php on line 35
+[09-May-2018 09:32:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_c3a87e9274bc026.om_admin' doesn't exist' in /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(35): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php on line 35
+[09-May-2018 09:33:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_c3a87e9274bc026.om_category' doesn't exist' in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php(89): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/updateProduct.php on line 12
+[09-May-2018 09:33:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_c3a87e9274bc026.om_admin' doesn't exist' in /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php(35): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/labs/lab7/loginProcess.php on line 35

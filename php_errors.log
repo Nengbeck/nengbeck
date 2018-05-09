@@ -96,3 +96,633 @@ Stack trace:
 #0 /home/ubuntu/workspace/nengbeck/challenges/April_9_2018.php(80): PDOStatement->execute()
 #1 {main}
   thrown in /home/ubuntu/workspace/nengbeck/challenges/April_9_2018.php on line 80
+[07-May-2018 20:27:27 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 67
+[07-May-2018 20:27:27 UTC] PHP Stack trace:
+[07-May-2018 20:27:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 20:27:40 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 73
+[07-May-2018 20:27:40 UTC] PHP Stack trace:
+[07-May-2018 20:27:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 20:28:39 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 75
+[07-May-2018 20:28:39 UTC] PHP Stack trace:
+[07-May-2018 20:28:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 20:37:55 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 31
+[07-May-2018 20:37:55 UTC] PHP Stack trace:
+[07-May-2018 20:37:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 20:37:55 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/nengbeck/finalProject/index.php:151
+[07-May-2018 20:38:15 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 31
+[07-May-2018 20:38:15 UTC] PHP Stack trace:
+[07-May-2018 20:38:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 20:38:15 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/nengbeck/finalProject/index.php:151
+[07-May-2018 20:39:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 31
+[07-May-2018 20:39:17 UTC] PHP Stack trace:
+[07-May-2018 20:39:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 20:39:17 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/nengbeck/finalProject/index.php:151
+[07-May-2018 20:39:19 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 31
+[07-May-2018 20:39:19 UTC] PHP Stack trace:
+[07-May-2018 20:39:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 20:39:19 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/nengbeck/finalProject/index.php:151
+[07-May-2018 20:39:22 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 31
+[07-May-2018 20:39:22 UTC] PHP Stack trace:
+[07-May-2018 20:39:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 20:39:22 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/nengbeck/finalProject/index.php:151
+[07-May-2018 20:40:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 31
+[07-May-2018 20:40:43 UTC] PHP Stack trace:
+[07-May-2018 20:40:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 20:40:43 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/nengbeck/finalProject/index.php:153
+[07-May-2018 20:41:08 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 31
+[07-May-2018 20:41:08 UTC] PHP Stack trace:
+[07-May-2018 20:41:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 20:41:08 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/nengbeck/finalProject/index.php:154
+[07-May-2018 20:41:35 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 31
+[07-May-2018 20:41:36 UTC] PHP Stack trace:
+[07-May-2018 20:41:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 20:41:36 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/nengbeck/finalProject/index.php:154
+[07-May-2018 20:41:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 31
+[07-May-2018 20:41:37 UTC] PHP Stack trace:
+[07-May-2018 20:41:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 20:41:37 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/nengbeck/finalProject/index.php:154
+[07-May-2018 20:41:40 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 31
+[07-May-2018 20:41:40 UTC] PHP Stack trace:
+[07-May-2018 20:41:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 20:41:40 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/nengbeck/finalProject/index.php:154
+[07-May-2018 20:42:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 31
+[07-May-2018 20:42:24 UTC] PHP Stack trace:
+[07-May-2018 20:42:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 20:42:24 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/nengbeck/finalProject/index.php:156
+[07-May-2018 20:42:26 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 31
+[07-May-2018 20:42:26 UTC] PHP Stack trace:
+[07-May-2018 20:42:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 20:42:26 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/nengbeck/finalProject/index.php:156
+[07-May-2018 21:27:35 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 26
+[07-May-2018 21:27:35 UTC] PHP Stack trace:
+[07-May-2018 21:27:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 21:27:35 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/nengbeck/finalProject/index.php:144
+[07-May-2018 21:27:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 26
+[07-May-2018 21:27:58 UTC] PHP Stack trace:
+[07-May-2018 21:27:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 21:27:58 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/nengbeck/finalProject/index.php:144
+[07-May-2018 21:36:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'distinct(category) FROM `fp_products` ORDER BY name' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/index.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/index.php(28): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/index.php(145): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 28
+[07-May-2018 21:36:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'distinct() category FROM `fp_products` ORDER BY name' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/index.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/index.php(28): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/index.php(145): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 28
+[07-May-2018 21:36:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'distinct category FROM `fp_products` ORDER BY name' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/index.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/index.php(28): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/index.php(145): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 28
+[07-May-2018 21:37:29 UTC] PHP Warning:  Missing argument 1 for displayCategories(), called in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 145 and defined in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 23
+[07-May-2018 21:37:29 UTC] PHP Stack trace:
+[07-May-2018 21:37:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 21:37:29 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/nengbeck/finalProject/index.php:145
+[07-May-2018 21:37:33 UTC] PHP Warning:  Missing argument 1 for displayCategories(), called in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 145 and defined in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 23
+[07-May-2018 21:37:33 UTC] PHP Stack trace:
+[07-May-2018 21:37:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 21:37:33 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/nengbeck/finalProject/index.php:145
+[07-May-2018 21:52:02 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 97
+[07-May-2018 21:58:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 188
+[07-May-2018 21:58:48 UTC] PHP Stack trace:
+[07-May-2018 21:58:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 21:59:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 188
+[07-May-2018 21:59:32 UTC] PHP Stack trace:
+[07-May-2018 21:59:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/index.php:0
+[07-May-2018 22:24:35 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 114
+[07-May-2018 22:27:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php(22): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/finalProject/loginProcess.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php on line 22
+[07-May-2018 22:27:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.om_admin' doesn't exist' in /home/ubuntu/workspace/nengbeck/finalProject/loginProcess.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/loginProcess.php(35): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/loginProcess.php on line 35
+[07-May-2018 22:30:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php(22): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/finalProject/admin.php(9): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php on line 22
+[07-May-2018 22:31:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.om_product' doesn't exist' in /home/ubuntu/workspace/nengbeck/finalProject/admin.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/admin.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/admin.php(84): displayAllProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/admin.php on line 15
+[07-May-2018 22:33:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php(22): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(4): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php on line 22
+[07-May-2018 22:33:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php(22): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(8): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php on line 22
+[07-May-2018 22:33:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_27d148a36beec91'' in /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php(22): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(4): getDatabaseConnection('heroku_27d148a3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/dbConnection.php on line 22
+[07-May-2018 22:34:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(64): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 29
+[07-May-2018 22:35:11 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 80
+[07-May-2018 22:35:11 UTC] PHP Stack trace:
+[07-May-2018 22:35:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:0
+[07-May-2018 22:40:42 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 80
+[07-May-2018 22:40:42 UTC] PHP Stack trace:
+[07-May-2018 22:40:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:0
+[07-May-2018 22:42:33 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 80
+[07-May-2018 22:42:33 UTC] PHP Stack trace:
+[07-May-2018 22:42:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:0
+[07-May-2018 22:43:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(80): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 16
+[07-May-2018 22:43:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(80): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 16
+[07-May-2018 22:43:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(80): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 16
+[07-May-2018 22:43:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(80): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 16
+[07-May-2018 22:43:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(80): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 16
+[07-May-2018 22:44:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(80): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 16
+[07-May-2018 22:45:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''quantity', `cost`, `catID`) 
+             VALUES ( '', NULL, NULL, '', '2')' at line 2' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(47): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 47
+[07-May-2018 22:45:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''quantity', `cost`, `catID`) 
+             VALUES ( '', NULL, NULL, '', '')' at line 2' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(47): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 47
+[07-May-2018 22:46:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''quantity', `cost`, `catID`) 
+             VALUES ( '', NULL, '', '', '')' at line 2' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(47): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 47
+[07-May-2018 22:46:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''quantity', `cost`, `catID`) 
+             VALUES ( '', NULL, '', '', '')' at line 2' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(47): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 47
+[07-May-2018 22:47:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''quantity', `cost`, `catID`) 
+             VALUES ( 'rfr', NULL, 'rf', 'rfr', ''' at line 2' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(47): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 47
+[07-May-2018 22:48:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''quantity', `cost`, `catID`) 
+             VALUES ( 'rfr', NULL, '12', 'rfr', ''' at line 2' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(47): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 47
+[07-May-2018 22:49:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''quantity', `cost`, `catID`) 
+             VALUES ( 'rfr', NULL, '12', 'rfr', ''' at line 2' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(47): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 47
+[07-May-2018 22:50:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''quantity', `cost`, `catID`) 
+             VALUES ( 'ef', '12', '12.00', '2')' at line 2' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 45
+[07-May-2018 22:58:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY cost' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/index.php:94
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/index.php(94): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/nengbeck/finalProject/index.php(193): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 94
+[07-May-2018 23:03:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(64): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 29
+[07-May-2018 23:04:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(60): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 25
+[07-May-2018 23:05:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(60): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 25
+[07-May-2018 23:05:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(24): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(59): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 24
+[07-May-2018 23:05:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(24): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(59): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 24
+[07-May-2018 23:51:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''quantity', `cost`, `catID`) 
+             VALUES ( 'random', '2', '2.00', '2')' at line 2' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 45
+[07-May-2018 23:57:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 45
+[07-May-2018 23:57:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 45
+[07-May-2018 23:57:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 45
+[07-May-2018 23:58:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 45
+[07-May-2018 23:58:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(46): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 46
+[07-May-2018 23:58:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(46): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 46
+[07-May-2018 23:59:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(47): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 47
+[08-May-2018 00:01:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(47): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 47
+[08-May-2018 00:01:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(47): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 47
+[08-May-2018 00:02:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'catID' cannot be null' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(47): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 47
+[08-May-2018 00:02:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'catID' cannot be null' in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php(47): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/addProduct.php on line 47
+[08-May-2018 00:02:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 9
+[08-May-2018 00:06:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 9
+[08-May-2018 00:06:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 9
+[08-May-2018 00:12:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 9
+[08-May-2018 00:14:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 9
+[08-May-2018 00:15:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 9
+[08-May-2018 00:15:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 9
+[08-May-2018 00:26:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 9
+[08-May-2018 00:28:03 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 6
+[08-May-2018 00:28:15 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 6
+[08-May-2018 00:28:27 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 6
+[08-May-2018 00:28:28 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 6
+[08-May-2018 00:28:34 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 6
+[08-May-2018 00:28:42 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 6
+[08-May-2018 00:28:47 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 6
+[08-May-2018 00:29:08 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 6
+[08-May-2018 00:29:12 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 6
+[08-May-2018 00:29:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:29:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:30:29 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 6
+[08-May-2018 00:30:43 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 6
+[08-May-2018 00:31:04 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 6
+[08-May-2018 00:31:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:33:32 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/nengbeck/finalProject/admin.php on line 48
+[08-May-2018 00:34:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:34:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:34:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:34:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:34:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:38:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 7
+[08-May-2018 00:39:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:40:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(24): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(59): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 24
+[08-May-2018 00:40:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:42:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:42:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:42:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:46:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:49:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:50:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:50:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:51:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:51:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:52:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:52:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[08-May-2018 00:53:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/deleteProduct.php on line 8
+[09-May-2018 03:19:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.om_category' doesn't exist' in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(95): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 12
+[09-May-2018 05:04:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.om_category' doesn't exist' in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(95): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 12
+[09-May-2018 06:47:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.om_category' doesn't exist' in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(95): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 12
+[09-May-2018 06:50:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.om_category' doesn't exist' in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(95): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 12
+[09-May-2018 08:09:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY cost' at line 1' in /home/ubuntu/workspace/nengbeck/finalProject/index.php:91
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/index.php(91): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/nengbeck/finalProject/index.php(202): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 91
+[09-May-2018 08:28:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.om_category' doesn't exist' in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(95): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 12
+[09-May-2018 09:15:08 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 107
+[09-May-2018 09:15:08 UTC] PHP Stack trace:
+[09-May-2018 09:15:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:0
+[09-May-2018 09:15:43 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 107 and defined in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 6
+[09-May-2018 09:15:43 UTC] PHP Stack trace:
+[09-May-2018 09:15:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:0
+[09-May-2018 09:15:43 UTC] PHP   2. getCategories() /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:107
+[09-May-2018 09:15:47 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 107 and defined in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 6
+[09-May-2018 09:15:47 UTC] PHP Stack trace:
+[09-May-2018 09:15:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:0
+[09-May-2018 09:15:47 UTC] PHP   2. getCategories() /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:107
+[09-May-2018 09:22:14 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 104 and defined in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 6
+[09-May-2018 09:22:14 UTC] PHP Stack trace:
+[09-May-2018 09:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:0
+[09-May-2018 09:22:14 UTC] PHP   2. getCategories() /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:104
+[09-May-2018 09:22:51 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 104 and defined in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 6
+[09-May-2018 09:22:51 UTC] PHP Stack trace:
+[09-May-2018 09:22:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:0
+[09-May-2018 09:22:51 UTC] PHP   2. getCategories() /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:104
+[09-May-2018 09:25:15 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 106 and defined in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 6
+[09-May-2018 09:25:15 UTC] PHP Stack trace:
+[09-May-2018 09:25:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:0
+[09-May-2018 09:25:15 UTC] PHP   2. getCategories() /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:106
+[09-May-2018 09:26:04 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 106 and defined in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 6
+[09-May-2018 09:26:04 UTC] PHP Stack trace:
+[09-May-2018 09:26:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:0
+[09-May-2018 09:26:04 UTC] PHP   2. getCategories() /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:106
+[09-May-2018 09:26:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/updateProduct.php on line 51
+[09-May-2018 16:54:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.categories' doesn't exist' in /home/ubuntu/workspace/nengbeck/finalProject/practice.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/practice.php(30): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/practice.php(124): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/practice.php on line 30
+[09-May-2018 16:55:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.categories' doesn't exist' in /home/ubuntu/workspace/nengbeck/finalProject/practice.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/practice.php(30): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/practice.php(124): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/practice.php on line 30
+[09-May-2018 16:55:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.categories' doesn't exist' in /home/ubuntu/workspace/nengbeck/finalProject/practice.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/practice.php(30): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/practice.php(124): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/practice.php on line 30
+[09-May-2018 16:55:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.categories' doesn't exist' in /home/ubuntu/workspace/nengbeck/finalProject/practice.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/practice.php(30): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/practice.php(124): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/practice.php on line 30
+[09-May-2018 16:57:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.categories' doesn't exist' in /home/ubuntu/workspace/nengbeck/finalProject/practice.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/practice.php(30): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/practice.php(124): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/practice.php on line 30
+[09-May-2018 16:58:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.categories' doesn't exist' in /home/ubuntu/workspace/nengbeck/finalProject/practice.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/practice.php(30): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/practice.php(124): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/practice.php on line 30
+[09-May-2018 16:58:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.categories' doesn't exist' in /home/ubuntu/workspace/nengbeck/finalProject/practice.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/practice.php(30): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/practice.php(124): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/practice.php on line 30
+[09-May-2018 16:58:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.categories' doesn't exist' in /home/ubuntu/workspace/nengbeck/finalProject/practice.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/nengbeck/finalProject/practice.php(30): PDOStatement->execute()
+#1 /home/ubuntu/workspace/nengbeck/finalProject/practice.php(124): getCategories(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/nengbeck/finalProject/practice.php on line 30
+[09-May-2018 17:32:32 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/nengbeck/finalProject/admin.php on line 140
+[09-May-2018 17:32:32 UTC] PHP Stack trace:
+[09-May-2018 17:32:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/nengbeck/finalProject/admin.php:0
+[09-May-2018 17:53:39 UTC] PHP Parse error:  syntax error, unexpected '"<br>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/nengbeck/finalProject/index.php on line 199
