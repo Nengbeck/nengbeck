@@ -37,7 +37,6 @@ function displayAllProducts(){
             
         </style>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -70,9 +69,10 @@ function displayAllProducts(){
         
         <form action="addProduct.php" class="col-md-5-md-offset-9">
             <button type="submit" class="btn btn-primary" value="Add Product">Add Product</button>
+       </form>
        
        <div class="col-md-4 col-md-offset-4">
-        <strong id = "strong"> <style> #strong{color:green;}</style><bold><u>Current Inventory : </u></bold></strong> </br>
+        <strong id = "strong"> <style> #strong{color:green;}</style><bold><u>Current Inventory : </u></bold></strong> <br>
         <?php $records=displayAllProducts();
             foreach($records as $record) {
                 //echo "[<a href='updateProduct.php?productID=".$record['productID']."'>Update</a>]" . " " ;
@@ -97,7 +97,7 @@ function displayAllProducts(){
         </div>
        
         <br><br>
-        </form>
+        
         
         <form action="logout.php" class="col-md-5-md-offset-9">
             <!-- <input type="submit" value="log Out"/> -->
@@ -117,6 +117,10 @@ function displayAllProducts(){
             <button id="categories"class="btn btn-info">
             Available Categories
             </button>
+            <br><br>
+            <!--<button id="mostExpensive"class="btn btn-info">
+            Most Expensive
+            </button>-->
         <br>
         
         </div>
@@ -159,7 +163,20 @@ function displayAllProducts(){
                             alert("Categories available: \n\n" + JSON.parse(data)[0].catName + '\n' + JSON.parse(data)[1].catName + '\n' + JSON.parse(data)[2].catName  );
                         }
                     });
-                }); 
+                });
+                
+               /* $("#mostExpensive").click(function() {
+                    $.ajax({
+                        type: "GET",
+                        url: "api/mostExpensiveProductAPI.php",
+                        data: {},
+                        success: function(data){
+                            alert(JSON.parse(data).price);
+                            alert("Most expensive product: " + JSON.parse(data).name +  "\nPrice: $" + JSON.parse(data).price);
+                        }
+                    });
+                });*/
+                
             }); 
         
         </script>
